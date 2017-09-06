@@ -1,0 +1,167 @@
+
+@media only screen and (min-width: 601px) and (max-width : 992px) {
+  .usercontent {
+    margin-left: 33% !important;
+  }
+}
+
+@media only screen and (min-width: 993px)  {
+  .usercontent {
+    margin-left: 25% !important;
+  }
+}
+
+body {
+  overflow-x: hidden;
+  padding: 0;
+margin:0;
+}
+.sidebar {
+  height: 100vh;
+  position: fixed;
+}
+
+.usercontent {
+height: auto !important;
+overflow-y: auto;
+padding: 0;
+margin:0;
+overflow-x: hidden
+}
+
+.recipes {
+  margin-top: 27px;
+  background: #efebe9;
+}
+
+.pagination li.active {
+    background-color: #64dd17;
+ }
+
+.user-recipes {
+  background: #efebe9;
+}
+
+.card-action {
+  background-color: transparent!important;
+}
+
+ul#nav li {
+  list-style: none;
+}
+
+ul#nav li a {
+  color: #ccc;
+  display: block;
+  padding: 10px;
+  font-size: 1.2em;
+  border-bottom: 1px solid #0a0a0a;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+
+ul#nav li a:hover {
+  background-color: #fff9c4;
+  color: #000;
+  padding-left: 20px;
+}
+
+ul#nav li a.selected {
+    background-color: #fff9c4;
+  color: #000;
+}
+
+
+
+
+
+/* search */
+#topbarsearch .input-field .prefix { 
+  width:0rem !important;      
+}        
+#topbarsearch nav ul li:hover, nav ul li.active {
+  background-color: none !important;
+}
+.input-field .prefix ~ input, .input-field .prefix ~ textarea, .input-field .prefix ~ label, .input-field .prefix ~ .validate ~ label, .input-field .prefix ~ .autocomplete-content{
+  margin-left: 1rem !important;
+}
+
+/* pro-input form */
+.pro-input {
+  height: 555px !important;
+}
+
+.add-input {
+  height: 1000px !important;
+}
+
+.add-input input {
+  margin-bottom: 6px !important;
+}
+
+.down-but a {
+  padding: 3px;
+}
+
+.mod-recipe {
+  height: 860px !important;
+}
+
+
+/* Profile   */
+.mycard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+mycard .container {
+    padding: 0 16px;
+}
+
+mycard .title {
+    color: grey;
+    font-size: 18px;
+}
+
+mycard button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+mycard a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+mycard button:hover, a:hover {
+    opacity: 0.7;
+}
+
+mycard img{
+
+  height: 100px;
+  width:  50px;
+}
+
+.myrow {
+  margin-bottom: 6px !important;
+}
+
+.myrow .mybtn {
+  height: 26px;
+  line-height: 26px;
+  padding: 0 0.5rem;
+}
